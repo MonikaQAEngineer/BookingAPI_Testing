@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="17.982" tests="16" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\AutomationTest\qa-automation-task\booking-api-tests\target\test-classes;C:\AutomationTest\qa-automation-task\booking-api-tests\target\classes;C:\Users\AD09573\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\AD09573\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\AD09573\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\AD09573\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\AD09573\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\AD09573\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\AD09573\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\AD09573\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\AD09573\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\AD09573\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\AD09573\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\AD09573\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\AD09573\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\AD09573\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\AD09573\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\AD09573\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\AD09573\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\AD09573\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\AD09573\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\AD09573\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\AD09573\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\AD09573\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\AD09573\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\AD09573\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\AD09573\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\AD09573\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\AD09573\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\AD09573\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\AD09573\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\AD09573\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\AD09573\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\AD09573\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\AD09573\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\AD09573\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.2\jackson-databind-2.16.2.jar;C:\Users\AD09573\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.2\jackson-annotations-2.16.2.jar;C:\Users\AD09573\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.2\jackson-core-2.16.2.jar;C:\Users\AD09573\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\AD09573\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.10.0\extentreports-cucumber7-adapter-1.10.0.jar;C:\Users\AD09573\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\AD09573\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\AD09573\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\AD09573\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\AD09573\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\AD09573\.m2\repository\tech\grasshopper\extent-pdf-report\2.9.1\extent-pdf-report-2.9.1.jar;C:\Users\AD09573\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.11.1\cucumber-pdf-report-2.11.1.jar;C:\Users\AD09573\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\AD09573\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\AD09573\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\AD09573\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\AD09573\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\AD09573\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\AD09573\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\AD09573\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\AD09573\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.4.1\rest-assured-cucumber-pdf-report-1.4.1.jar;C:\Users\AD09573\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\AD09573\.m2\repository\com\aventstack\klov-reporter\5.0.9\klov-reporter-5.0.9.jar;C:\Users\AD09573\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\AD09573\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\AD09573\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\AD09573\.m2\repository\tech\grasshopper\htmlextentreporter\1.0.1\htmlextentreporter-1.0.1.jar;C:\Users\AD09573\.m2\repository\tech\grasshopper\extent-excel-report\1.2.0\extent-excel-report-1.2.0.jar;C:\Users\AD09573\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\AD09573\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\AD09573\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\AD09573\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\AD09573\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\AD09573\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\AD09573\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\AD09573\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\AD09573\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\AD09573\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\AD09573\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="Europe/Oslo"/>
+    <property name="user.country.format" value="NO"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Zulu\zulu-24\bin"/>
+    <property name="sun.java.command" value="C:\Users\AD09573\AppData\Local\Temp\surefire1136978485108889966\surefirebooter-20251105215807879_3.jar C:\Users\AD09573\AppData\Local\Temp\surefire1136978485108889966 2025-11-05T21-58-07_476-jvmRun1 surefire-20251105215807879_1tmp surefire_0-20251105215807879_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\AutomationTest\qa-automation-task\booking-api-tests\target\test-classes;C:\AutomationTest\qa-automation-task\booking-api-tests\target\classes;C:\Users\AD09573\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\AD09573\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\AD09573\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\AD09573\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\AD09573\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\AD09573\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\AD09573\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\AD09573\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\AD09573\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\AD09573\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\AD09573\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\AD09573\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\AD09573\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\AD09573\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\AD09573\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\AD09573\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\AD09573\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\AD09573\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\AD09573\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\AD09573\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\AD09573\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\AD09573\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\AD09573\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\AD09573\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\AD09573\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\AD09573\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\AD09573\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\AD09573\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\AD09573\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\AD09573\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\AD09573\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\AD09573\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\AD09573\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\AD09573\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.2\jackson-databind-2.16.2.jar;C:\Users\AD09573\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.2\jackson-annotations-2.16.2.jar;C:\Users\AD09573\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.2\jackson-core-2.16.2.jar;C:\Users\AD09573\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\AD09573\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.10.0\extentreports-cucumber7-adapter-1.10.0.jar;C:\Users\AD09573\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\AD09573\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\AD09573\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\AD09573\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\AD09573\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\AD09573\.m2\repository\tech\grasshopper\extent-pdf-report\2.9.1\extent-pdf-report-2.9.1.jar;C:\Users\AD09573\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.11.1\cucumber-pdf-report-2.11.1.jar;C:\Users\AD09573\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\AD09573\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\AD09573\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\AD09573\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\AD09573\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\AD09573\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\AD09573\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\AD09573\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\AD09573\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.4.1\rest-assured-cucumber-pdf-report-1.4.1.jar;C:\Users\AD09573\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\AD09573\.m2\repository\com\aventstack\klov-reporter\5.0.9\klov-reporter-5.0.9.jar;C:\Users\AD09573\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\AD09573\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\AD09573\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\AD09573\.m2\repository\tech\grasshopper\htmlextentreporter\1.0.1\htmlextentreporter-1.0.1.jar;C:\Users\AD09573\.m2\repository\tech\grasshopper\extent-excel-report\1.2.0\extent-excel-report-1.2.0.jar;C:\Users\AD09573\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\AD09573\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\AD09573\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\AD09573\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\AD09573\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\AD09573\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\AD09573\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\AD09573\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\AD09573\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\AD09573\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\AD09573\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\AD09573"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Program Files\Zulu\zulu-24"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\AutomationTest\qa-automation-task\booking-api-tests"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\AD09573\AppData\Local\Temp\surefire1136978485108889966\surefirebooter-20251105215807879_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24.0.1+9"/>
+    <property name="user.name" value="AD09573"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu24.30+11-CA"/>
+    <property name="localRepository" value="C:\Users\AD09573\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\AD09573\AppData\Local\Temp\"/>
+    <property name="java.version" value="24.0.1"/>
+    <property name="user.dir" value="C:\AutomationTest\qa-automation-task\booking-api-tests"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="no"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Zulu\zulu-24\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Zulu\zulu-24\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\WindowsPowerShell\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Users\AD09573\Downloads\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\AD09573\AppData\Local\Microsoft\WindowsApps;C:\Users\AD09573\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\AD09573\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;;C:\Users\AD09573\ACCELQAgent\Dashboard\bin;c:\Users\AD09573\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="24.0.1+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="Successfully create new booking with valid data #1" classname="Create new bookings" time="6.097">
+    <system-out><![CDATA[
+Scenario Outline: Successfully create new booking with valid data &amp#27;[90m# src/test/resources/features/CreateBooking.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have booking data with &amp#27;[0m&amp#27;[32m&amp#27;[1m"Oreo"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"Deo"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m1200&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m         &amp#27;[90m# stepDefinitions.CreateBookingSteps.i_have_booking_data_with(java.lang.String,java.lang.String,java.lang.Integer,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a POST request to create a booking&amp#27;[0m                  &amp#27;[90m# stepDefinitions.CreateBookingSteps.i_send_a_post_request_to_create_a_booking()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status code should be 200&amp#27;[0m                     &amp#27;[90m# stepDefinitions.CreateBookingSteps.the_response_status_code_should_be_200()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response body should contain &amp#27;[0m&amp#27;[32m&amp#27;[1m"Oreo"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"Deo"&amp#27;[0m               &amp#27;[90m# stepDefinitions.CreateBookingSteps.the_response_body_should_contain(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Successfully create new booking with valid data #2" classname="Create new bookings" time="0.633">
+    <system-out><![CDATA[
+Scenario Outline: Successfully create new booking with valid data &amp#27;[90m# src/test/resources/features/CreateBooking.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have booking data with &amp#27;[0m&amp#27;[32m&amp#27;[1m"Mice"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"Smith"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m1500&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m      &amp#27;[90m# stepDefinitions.CreateBookingSteps.i_have_booking_data_with(java.lang.String,java.lang.String,java.lang.Integer,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a POST request to create a booking&amp#27;[0m                  &amp#27;[90m# stepDefinitions.CreateBookingSteps.i_send_a_post_request_to_create_a_booking()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status code should be 200&amp#27;[0m                     &amp#27;[90m# stepDefinitions.CreateBookingSteps.the_response_status_code_should_be_200()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response body should contain &amp#27;[0m&amp#27;[32m&amp#27;[1m"Mice"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"Smith"&amp#27;[0m             &amp#27;[90m# stepDefinitions.CreateBookingSteps.the_response_body_should_contain(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Successfully create new booking with valid data #3" classname="Create new bookings" time="0.692">
+    <system-out><![CDATA[
+Scenario Outline: Successfully create new booking with valid data &amp#27;[90m# src/test/resources/features/CreateBooking.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have booking data with &amp#27;[0m&amp#27;[32m&amp#27;[1m"Bobby"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"Johnson"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m800&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m     &amp#27;[90m# stepDefinitions.CreateBookingSteps.i_have_booking_data_with(java.lang.String,java.lang.String,java.lang.Integer,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a POST request to create a booking&amp#27;[0m                  &amp#27;[90m# stepDefinitions.CreateBookingSteps.i_send_a_post_request_to_create_a_booking()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status code should be 200&amp#27;[0m                     &amp#27;[90m# stepDefinitions.CreateBookingSteps.the_response_status_code_should_be_200()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response body should contain &amp#27;[0m&amp#27;[32m&amp#27;[1m"Bobby"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"Johnson"&amp#27;[0m          &amp#27;[90m# stepDefinitions.CreateBookingSteps.the_response_body_should_contain(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Attempt to create a booking with incomplete information (missing required fields)" classname="Create new bookings" time="0.579">
+    <system-out><![CDATA[
+Scenario: Attempt to create a booking with incomplete information (missing required fields) &amp#27;[90m# src/test/resources/features/CreateBooking.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a booking data with only &amp#27;[0m&amp#27;[32m&amp#27;[1m"<lastname>"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"<depositpaid>"&amp#27;[0m                        &amp#27;[90m# stepDefinitions.CreateBookingSteps.I_have_a_booking_data_with_only(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a POST request to create a booking&amp#27;[0m                                            &amp#27;[90m# stepDefinitions.CreateBookingSteps.i_send_a_post_request_to_create_a_booking()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status code should be 500&amp#27;[0m                                               &amp#27;[90m# stepDefinitions.CreateBookingSteps.the_response_status_code_should_be_500()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response body should contain &amp#27;[0m&amp#27;[32m&amp#27;[1m"<Internal Server Error>"&amp#27;[0m                            &amp#27;[90m# stepDefinitions.CreateBookingSteps.the_response_body_should_contain(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Attempt to retrieve a booking with an valid ID" classname="EMPTY_NAME" time="0.711">
+    <system-out><![CDATA[
+Scenario: Attempt to retrieve a booking with an valid ID              &amp#27;[90m# src/test/resources/features/GetBooking.feature:3&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a GET request to the booking endpoint with booking id &amp#27;[0m&amp#27;[32m&amp#27;[1m9&amp#27;[0m &amp#27;[90m# stepDefinitions.GetBookingSteps.I_send_a_GET_request_to_the_booking_endpoint_with_booking_id(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mresponse status code should be 200&amp#27;[0m                             &amp#27;[90m# stepDefinitions.GetBookingSteps.response_status_code_should_be_200()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response body should contain the all booking details&amp#27;[0m        &amp#27;[90m# stepDefinitions.GetBookingSteps.the_response_body_should_contain_the_all_booking_details()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Attempt to retrieve a booking with an invalid ID" classname="EMPTY_NAME" time="0.659">
+    <system-out><![CDATA[
+Scenario: Attempt to retrieve a booking with an invalid ID                    &amp#27;[90m# src/test/resources/features/GetBooking.feature:9&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a GET request to the booking endpoint with booking id &amp#27;[0m&amp#27;[32m&amp#27;[1m999999990&amp#27;[0m &amp#27;[90m# stepDefinitions.GetBookingSteps.I_send_a_GET_request_to_the_booking_endpoint_with_booking_id(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mresponse status code should be 404&amp#27;[0m                                     &amp#27;[90m# stepDefinitions.GetBookingSteps.response_status_code_should_be_404()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mresponse body should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"Not Found"&amp#27;[0m                                     &amp#27;[90m# stepDefinitions.GetBookingSteps.response_body_should_be(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Retrieve all booking IDs without any filters" classname="Get Booking IDs" time="0.908">
+    <system-out><![CDATA[
+Scenario: Retrieve all booking IDs without any filters                      &amp#27;[90m# src/test/resources/features/GetBookingID.feature:3&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a GET request to the booking endpoint&amp#27;[0m                         &amp#27;[90m# stepDefinitions.GetBookingIdSteps.I_send_a_GET_request_to_the_booking_endpoint()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                    &amp#27;[90m# stepDefinitions.GetBookingIdSteps.the_response_status_should_be(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response body should be a list containing at least one booking ID&amp#27;[0m &amp#27;[90m# stepDefinitions.GetBookingIdSteps.the_response_body_should_be_a_list_containing_at_least_one_booking_id()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Filter booking IDs using lastname #1" classname="Get Booking IDs" time="0.66">
+    <system-out><![CDATA[
+Scenario Outline: Filter booking IDs using lastname                                                &amp#27;[90m# src/test/resources/features/GetBookingID.feature:15&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a GET request to the booking endpoint with query parameter &amp#27;[0m&amp#27;[32m&amp#27;[1m'firstname'&amp#27;[0m&amp#27;[32m set to &amp#27;[0m&amp#27;[32m&amp#27;[1m'Josh'&amp#27;[0m &amp#27;[90m# stepDefinitions.GetBookingIdSteps.I_send_a_GET_request_to_the_booking_endpoint_with_query_parameter_set_to(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                                           &amp#27;[90m# stepDefinitions.GetBookingIdSteps.the_response_status_should_be(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response body should be a list containing at least one booking ID&amp#27;[0m                        &amp#27;[90m# stepDefinitions.GetBookingIdSteps.the_response_body_should_be_a_list_containing_at_least_one_booking_id()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Filter booking IDs using lastname #2" classname="Get Booking IDs" time="0.623">
+    <system-out><![CDATA[
+Scenario Outline: Filter booking IDs using lastname                                                &amp#27;[90m# src/test/resources/features/GetBookingID.feature:16&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a GET request to the booking endpoint with query parameter &amp#27;[0m&amp#27;[32m&amp#27;[1m'lastname'&amp#27;[0m&amp#27;[32m set to &amp#27;[0m&amp#27;[32m&amp#27;[1m'Brown'&amp#27;[0m &amp#27;[90m# stepDefinitions.GetBookingIdSteps.I_send_a_GET_request_to_the_booking_endpoint_with_query_parameter_set_to(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                                           &amp#27;[90m# stepDefinitions.GetBookingIdSteps.the_response_status_should_be(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response body should be a list containing at least one booking ID&amp#27;[0m                        &amp#27;[90m# stepDefinitions.GetBookingIdSteps.the_response_body_should_be_a_list_containing_at_least_one_booking_id()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Filter booking IDs using lastname #3" classname="Get Booking IDs" time="0.767">
+    <system-out><![CDATA[
+Scenario Outline: Filter booking IDs using lastname                                                    &amp#27;[90m# src/test/resources/features/GetBookingID.feature:17&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a GET request to the booking endpoint with query parameter &amp#27;[0m&amp#27;[32m&amp#27;[1m'checkin'&amp#27;[0m&amp#27;[32m set to &amp#27;[0m&amp#27;[32m&amp#27;[1m'2025-01-01'&amp#27;[0m &amp#27;[90m# stepDefinitions.GetBookingIdSteps.I_send_a_GET_request_to_the_booking_endpoint_with_query_parameter_set_to(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                                               &amp#27;[90m# stepDefinitions.GetBookingIdSteps.the_response_status_should_be(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response body should be a list containing at least one booking ID&amp#27;[0m                            &amp#27;[90m# stepDefinitions.GetBookingIdSteps.the_response_body_should_be_a_list_containing_at_least_one_booking_id()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Filter booking IDs using firstname that doesnt exist in booking records #1" classname="Get Booking IDs" time="0.586">
+    <system-out><![CDATA[
+Scenario Outline: Filter booking IDs using firstname that doesnt exist in booking records          &amp#27;[90m# src/test/resources/features/GetBookingID.feature:26&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a GET request to the booking endpoint with query parameter &amp#27;[0m&amp#27;[32m&amp#27;[1m'firstname'&amp#27;[0m&amp#27;[32m set to &amp#27;[0m&amp#27;[32m&amp#27;[1m'None'&amp#27;[0m &amp#27;[90m# stepDefinitions.GetBookingIdSteps.I_send_a_GET_request_to_the_booking_endpoint_with_query_parameter_set_to(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                                           &amp#27;[90m# stepDefinitions.GetBookingIdSteps.the_response_status_should_be(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response body should be empty&amp#27;[0m                                                            &amp#27;[90m# stepDefinitions.GetBookingIdSteps.the_response_body_should_be_empty()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Filter booking IDs using firstname that doesnt exist in booking records #2" classname="Get Booking IDs" time="0.737">
+    <system-out><![CDATA[
+Scenario Outline: Filter booking IDs using firstname that doesnt exist in booking records             &amp#27;[90m# src/test/resources/features/GetBookingID.feature:27&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a GET request to the booking endpoint with query parameter &amp#27;[0m&amp#27;[32m&amp#27;[1m'lastname'&amp#27;[0m&amp#27;[32m set to &amp#27;[0m&amp#27;[32m&amp#27;[1m'Existing'&amp#27;[0m &amp#27;[90m# stepDefinitions.GetBookingIdSteps.I_send_a_GET_request_to_the_booking_endpoint_with_query_parameter_set_to(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                                              &amp#27;[90m# stepDefinitions.GetBookingIdSteps.the_response_status_should_be(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response body should be empty&amp#27;[0m                                                               &amp#27;[90m# stepDefinitions.GetBookingIdSteps.the_response_body_should_be_empty()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Successfully update an existing booking with a valid token" classname="Update Booking" time="0.713">
+    <system-out><![CDATA[
+Scenario: Successfully update an existing booking with a valid token           &amp#27;[90m# src/test/resources/features/UpdateBooking.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma booking exists with bookingID &amp#27;[0m&amp#27;[32m&amp#27;[1m9&amp#27;[0m                                      &amp#27;[90m# stepDefinitions.UpdateBookingSteps.a_booking_exists_with_bookingID(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am an authenticated user with a valid token&amp#27;[0m                          &amp#27;[90m# stepDefinitions.UpdateBookingSteps.i_am_an_authenticated_user_with_a_valid_token()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have to update the lastname to &amp#27;[0m&amp#27;[32m&amp#27;[1m"Authorized"&amp#27;[0m                            &amp#27;[90m# stepDefinitions.UpdateBookingSteps.i_have_to_update_the_lastname_to(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a PUT request to the booking endpoint with background booking ID&amp#27;[0m &amp#27;[90m# stepDefinitions.UpdateBookingSteps.i_send_a_PUT_request_to_the_booking_endpoint_with_background_booking_ID()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                         &amp#27;[90m# stepDefinitions.UpdateBookingSteps.the_response_code_should_be(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response body should show the lastname as &amp#27;[0m&amp#27;[32m&amp#27;[1m"Authorized"&amp#27;[0m               &amp#27;[90m# stepDefinitions.UpdateBookingSteps.the_response_body_should_show_the_lastname_as(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Attempt to update a booking record without an authentication token" classname="Update Booking" time="0.697">
+    <system-out><![CDATA[
+@negative
+Scenario: Attempt to update a booking record without an authentication token   &amp#27;[90m# src/test/resources/features/UpdateBooking.feature:18&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma booking exists with bookingID &amp#27;[0m&amp#27;[32m&amp#27;[1m9&amp#27;[0m                                      &amp#27;[90m# stepDefinitions.UpdateBookingSteps.a_booking_exists_with_bookingID(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am not an authenticated user&amp#27;[0m                                         &amp#27;[90m# stepDefinitions.UpdateBookingSteps.i_am_not_an_authenticated_user()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have to update the lastname to &amp#27;[0m&amp#27;[32m&amp#27;[1m"NotAuthorized"&amp#27;[0m                         &amp#27;[90m# stepDefinitions.UpdateBookingSteps.i_have_to_update_the_lastname_to(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a PUT request to the booking endpoint with background booking ID&amp#27;[0m &amp#27;[90m# stepDefinitions.UpdateBookingSteps.i_send_a_PUT_request_to_the_booking_endpoint_with_background_booking_ID()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m403&amp#27;[0m                                         &amp#27;[90m# stepDefinitions.UpdateBookingSteps.the_response_code_should_be(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response body should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"Forbidden"&amp#27;[0m                                  &amp#27;[90m# stepDefinitions.UpdateBookingSteps.the_response_body_should_be(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Attempt to update a booking with an invalid authentication token" classname="Update Booking" time="0.697">
+    <system-out><![CDATA[
+@negative
+Scenario: Attempt to update a booking with an invalid authentication token     &amp#27;[90m# src/test/resources/features/UpdateBooking.feature:26&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma booking exists with bookingID &amp#27;[0m&amp#27;[32m&amp#27;[1m9&amp#27;[0m                                      &amp#27;[90m# stepDefinitions.UpdateBookingSteps.a_booking_exists_with_bookingID(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have an invalid authentication token &amp#27;[0m&amp#27;[32m&amp#27;[1m"invalidTokenForTesting"&amp#27;[0m        &amp#27;[90m# stepDefinitions.UpdateBookingSteps.i_have_an_invalid_authentication_token(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have to update the lastname to &amp#27;[0m&amp#27;[32m&amp#27;[1m"InvalidToken"&amp#27;[0m                          &amp#27;[90m# stepDefinitions.UpdateBookingSteps.i_have_to_update_the_lastname_to(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a PUT request to the booking endpoint with background booking ID&amp#27;[0m &amp#27;[90m# stepDefinitions.UpdateBookingSteps.i_send_a_PUT_request_to_the_booking_endpoint_with_background_booking_ID()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m403&amp#27;[0m                                         &amp#27;[90m# stepDefinitions.UpdateBookingSteps.the_response_code_should_be(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response body should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"Forbidden"&amp#27;[0m                                  &amp#27;[90m# stepDefinitions.UpdateBookingSteps.the_response_body_should_be(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Attempt to update a booking that does not exist" classname="Update Booking" time="0.611">
+    <system-out><![CDATA[
+@negative
+Scenario: Attempt to update a booking that does not exist        &amp#27;[90m# src/test/resources/features/UpdateBooking.feature:34&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma booking exists with bookingID &amp#27;[0m&amp#27;[32m&amp#27;[1m9&amp#27;[0m                        &amp#27;[90m# stepDefinitions.UpdateBookingSteps.a_booking_exists_with_bookingID(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am an authenticated user with a valid token&amp#27;[0m            &amp#27;[90m# stepDefinitions.UpdateBookingSteps.i_am_an_authenticated_user_with_a_valid_token()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have to update the lastname to &amp#27;[0m&amp#27;[32m&amp#27;[1m"NonExistent"&amp#27;[0m             &amp#27;[90m# stepDefinitions.UpdateBookingSteps.i_have_to_update_the_lastname_to(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a PUT request to the booking endpoint with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m9999&amp#27;[0m &amp#27;[90m# stepDefinitions.UpdateBookingSteps.i_send_a_PUT_request_to_the_booking_endpoint_with_ID(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m405&amp#27;[0m                           &amp#27;[90m# stepDefinitions.UpdateBookingSteps.the_response_code_should_be(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response body should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"Method Not Allowed"&amp#27;[0m           &amp#27;[90m# stepDefinitions.UpdateBookingSteps.the_response_body_should_be(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
