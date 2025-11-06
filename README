@@ -1,0 +1,75 @@
+# Booking API Test Automation Project
+
+This project contains automated API tests for the Booking system using Cucumber, BBD framework, Java, Maven, and REST Assured.
+
+## Prerequisites
+
+- Java 17
+- Maven 3.x
+- JUnit 4.13.2
+- REST Assured 5.5.0
+- Cucumber 7.14.0
+- Extent Reports (Cucumber 7 Adapter)
+- Docker (optional)
+
+## Project Structure
+
+```
+booking-api-tests/
+├── src/
+│   └── test/
+│       ├── java/                  # Test source files
+│       │   └── TestRunner.java    # Main test runner class
+│       └── resources/             # Test configuration and feature files 
+├── dockerfile                     # Docker configuration
+├── .gitlab-ci.yml                 # GitLab CI/CD configuration
+└── pom.xml                        # Maven configuration
+          
+```
+
+## Getting Started
+
+### Running Tests Locally
+
+1. Clone the repository
+2. Install dependencies:
+```bash
+mvn clean install
+```
+3. Run tests:
+```bash
+mvn test
+```
+
+### Running Tests with Docker
+
+1. Build the Docker image:
+```bash
+docker build -t booking-api-tests .
+```
+
+2. Run tests in container:
+```bash
+docker run booking-api-tests
+```
+
+## CI/CD Pipeline
+
+The project uses GitLab CI/CD with two stages:
+- **Build**: Compiles the code and creates artifacts
+- **Test**: Runs the test suite and generates reports
+
+## Test Reports
+
+After test execution, reports can be found in:
+- Cucumber reports: `target/cucumber-reports/`
+
+### Adding New Tests
+1. Create feature files in `src/test/resources/features`
+2. Implement step definitions in `src/test/java/stepDefinitions`
+
+## Contributing
+
+1. Create a new branch
+2. Make your changes
+3. Submit a merge request

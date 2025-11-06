@@ -1,0 +1,6 @@
+stepDefinitions\GetBookingSteps.class
+runners\TestRunner.class
+stepDefinitions\GetBookingIdSteps.class
+com\booking\AppTest.class
+stepDefinitions\UpdateBookingSteps.class
+stepDefinitions\CreateBookingSteps.class
