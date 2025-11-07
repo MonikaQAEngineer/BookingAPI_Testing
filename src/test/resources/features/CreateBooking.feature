@@ -1,4 +1,4 @@
-Feature: Create new bookings
+Feature: Create new Booking
 Verify that new bookings can be created successfully.
 
   Scenario Outline: Successfully create new booking with valid data
@@ -17,4 +17,4 @@ Verify that new bookings can be created successfully.
     Given I have a booking data with only "<lastname>" "<depositpaid>"
     When I send a POST request to create a booking
     Then the response status code should be 500
-    And the response body should contain "<Internal Server Error>"
+    And the response body should contain error message "Internal Server Error"

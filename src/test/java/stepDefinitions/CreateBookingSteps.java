@@ -2,12 +2,12 @@ package stepDefinitions;
 
 import java.util.HashMap;
 import java.util.Map;
+import org.junit.Assert;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import org.junit.Assert;
 
 public class CreateBookingSteps {
     Map<String, Object> requestBody;
@@ -28,16 +28,11 @@ public class CreateBookingSteps {
 
     @When("I send a POST request to create a booking")
     public void i_send_a_post_request_to_create_a_booking() {
-        RestAssured.baseURI = "https://restful-booker.herokuapp.com";
         response = RestAssured.given()
                 .header("Content-Type", "application/json")
                 .body(requestBody)
                 .post("/booking");
-    }
-
-    @Then("the response status code should be 200")
-    public void the_response_status_code_should_be_200() {
-        Assert.assertEquals("Status code should be 200", 200, response.getStatusCode());
+        CommonSteps.setResponse(response);
     }
 
     @Then("the response body should contain {string} {string}")
@@ -54,17 +49,7 @@ public class CreateBookingSteps {
         requestBody = new HashMap<>();
         requestBody.put("lastname", lastname);
         requestBody.put("depositpaid", true);
-    }
-
-    @Then("the response status code should be 500")
-    public void the_response_status_code_should_be_500() {
-        Assert.assertEquals("Status code should be 500", 500, response.getStatusCode());
-    }
-
-    @Then("the response body should contain {string}")
-    public void the_response_body_should_contain(String Internal_Server_Error) {
-        String actualBody = response.getBody().asString().trim();
-        actualBody.contains(Internal_Server_Error);
+        CommonSteps.setResponse(response);
     }
 
 }
